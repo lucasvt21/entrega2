@@ -5,7 +5,14 @@
 }
 @font-face{
     font-family: "font-all";
-    src: url(../assets/fonts/Catamaran-VariableFont_wght.ttf);    
+    src: url(../assets/fonts/Catamaran-VariableFont_wght.ttf);   
+}
+@font-face{
+    font-family: "letra-chica";
+    src: url()
+}
+body{
+    font-family: "font-all";
 }
 .LogoPrincipal{
     background-color: #010C80;
@@ -28,18 +35,28 @@
 }
 .SubHeader{
     background-color: rgb(1, 12, 128);
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    
 }
 .SubHeader ul li{
     font-size: 1.125rem;
     text-decoration: none;
-    display: inline-block;
+    display: inline-flex;
+    justify-content: flex-end;
     padding: 1.5625rem;
-    height: 4.6875rem
+    height: 4.6875rem;
 }
 .SubHeader ul li a{
     color: rgb(255, 255, 255);
     text-decoration: none;
     margin-right: .625rem;
+}
+.icono{
+    font-size: 22px;
+    color: #010C80;
+    padding: 10px;
 }
 .ImagenMainIndex{
     width: 100%;
@@ -58,7 +75,7 @@
     "cardSucursal cardEstado"
     "cardChequee cardCotizacion"
     ;
-    padding-left: .625rem;
+    place-items: center;
     font-family: "font-all";
 }
 .cardSucursal{
@@ -119,6 +136,35 @@
     width: 1.875rem;
     height: 1.875rem;
 }
+.formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    width: auto;
+    padding: 2.0rem;
+    gap: .625rem;
+    background-image: linear-gradient(to top, #010C80, #ffffff);
+}
+.imagen-correo img{
+width:50px;
+}
+.escriba-correo input{
+    width: 15.625rem;
+    border: #010C80 1.5px solid;
+}
+.escriba-asunto input{
+    width: 15.625rem;
+    border: #010C80 1.5px solid;
+}
+.formulario-mensaje{
+    border: #010C80 1.5px solid;
+    height: 7.5rem;
+    width: 15.625rem;
+}
+
 footer{
     background-color: #010C80;
     display: flex;
@@ -127,6 +173,7 @@ footer{
     padding: .4688rem;
 
 }
+
 .redesfooter ul{
     width: 1.875rem;
     height: 1.875rem;
@@ -166,6 +213,36 @@ footer{
     padding-left: 0.5rem;
 }
 /*Quienes Somos*/ 
+.contenedorcirculo{
+    display: flex;
+    flex-direction: row;
+    gap: 1.875rem;
+    justify-content: space-around;
+}
+.caja1{
+    height: 25rem;
+    width: 25rem;
+    margin: 50px;
+}
+.caja1 h2{
+    text-decoration:underline #010C80;
+}
+.caja2{
+    height: 25rem;
+    width: 25rem;
+    margin: 50px;
+}
+.caja2 h2{
+    text-decoration:underline #010C80;
+}
+.caja3{
+    height: 25rem;
+    width: 25rem;
+    margin: 50px;
+}
+.caja3 h2{
+    text-decoration:underline #010C80;
+}
 .imgmainquienessomos{
 width: 100%;
 height: 40rem;
@@ -180,13 +257,13 @@ margin-bottom: .625rem;
 .cardQuienesSomos p{
     border: .125rem solid #010C80;
     width: 30rem;
-    height: 13.75rem;
+    height: auto;
     border-radius: .4375rem;
     text-align: center;
     padding: 10px;
     margin: .625rem;
-    font-size: 1.1rem;
-    font-family: "font-all";
+    font-size: 1.25rem;
+
 }
 .MainTextoMedio{
     text-align: center;
@@ -229,8 +306,6 @@ margin-bottom: .625rem;
     margin: .625rem;
     margin-left: 31.25rem;
     font-size: 1.3rem;
-    font-family: "font-all";
-    
 }
 .FotoMainDestinos{
     width: 100%;
@@ -322,16 +397,141 @@ margin-bottom: .625rem;
     margin-right: 0.5rem;
 }
 @media (max-width:1024px){
-
+.SubHeader{
+    display: flex;
+    justify-content: space-evenly;
 }
 @media (max-width:768px){
-    .SubHeader ul li{
-        font-size: small;
+    .navbar{
+        height: auto;
+        display: flex;
+    }
+    .cardForm{
+        height: 46.875rem;
+        justify-content: center;
+    }
+    .cardsMain{
+        display: flex;
+        flex-direction: column;
+        align-items: center;  
+    }
+    .cardsMain div{
+        margin: 0;
+    }
+    /*/ Quienes somos /*/
+    .imgmainquienessomos{
+        margin: 0rem;
+    }
+    .contenedorcirculo{
+        margin-bottom: 7.5rem;
+    }
+    
 }
 @media (max-width:480px){
-    .SubHeader ul li{
+    .navbar{
+        display: flex;
+        flex-direction: column;
+    }
+    .ImagenMainIndex{
+        height: 20rem;
+    }
+    .contenedorcirculo{
+        display: flex;
+        flex-direction: column;
+        gap: .9375rem;
+        height: 62.5rem
+    }
+    .caja1{
+        padding: .625rem;
+        width: 300px;
+    }
+    .caja2{
+        padding: .625rem;
+        width: 300px;
+    }
+    .caja3{
+        padding: .625rem;
+        width: 300px;
+    }
+    .imgmainquienessomos{
+        height: 25rem;
+    }
+    .SubHeader {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .SubHeader ul li {
+        font-size: 1.125rem;
+        text-decoration: none;
+        display: flex;
+        justify-content: flex-start;
+        padding: 1.5625rem;
+        height: 4.6875rem;
+    }
 }
 @media (max-width:320px){
+    .ImagenMainIndex{
+        height: 18.75rem;
+    }
+    .navbar ul li a{
+        font-size: 1rem;
+    }
+    .navbar{
+        display: flex;
+        flex-direction: column;
+    }
+    .navbar{
+        width: 100%;
+    }
+    .contenedorcirculo{
+        width: 100%;
+        gap: 0rem;
+    }
+    .caja1{
+        width: 250px;
+    }
+    .caja2{
+        width: 250px;
+    }
+    .caja3{
+        width: 250px;
+    }
+    .cardQuienesSomos p {
+        border: 0.125rem solid #010C80;
+        width: 30rem;
+        height: 20.5rem;
+        border-radius: 0.4375rem;
+        text-align: center;
+        padding: 10px;
+        margin: 0.625rem;
+        font-size: 1.1rem;
+    }
+    .MainTextoMedio {
+        text-align: center;
+        font-size: 1.25rem;
+        margin-bottom: 0.625rem;
+    }
+    .imgmainquienessomos{
+        height: 18rem;
+    }
+    .LineaBlanca{
+        border-top: 0.2rem solid rgb(255, 255, 255);
+    }
     .SubHeader ul li{
-}
+        display: flex;
+        flex-direction: column;
+        padding: 15px;
+        margin: 0px;
+        font-size: .875rem;
+        height: 45px;
+    }
+    .MainTextoMedio h2{
+        font-size: 1.5625rem;
+    }
+    .cardQuienesSomos p{
+        font-size: 1rem;
+        border:#010C80 solid 0.1875rem;
+        padding: .625rem;
+        height: auto;
+    }
 }
