@@ -1,0 +1,541 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face{
+    font-family: "font-all";
+    src: url(../assets/fonts/Catamaran-VariableFont_wght.ttf);   
+}
+@font-face{
+    font-family: "letra-chica";
+    src: url()
+}
+body{
+    font-family: "font-all";
+}
+.LogoPrincipal{
+    background-color: #010C80;
+    width: 9.375rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.colortopazul{
+    background-color: #010C80;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.LineaBlanca{
+    border-top: .600rem solid rgb(255, 255, 255);
+}
+.LineaAzul{
+    border-top: 2.5rem solid rgb(1, 12, 128);
+}
+.SubHeader{
+    background-color: rgb(1, 12, 128);
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    
+}
+.SubHeader ul li{
+    font-size: 1.125rem;
+    text-decoration: none;
+    display: inline-flex;
+    justify-content: flex-end;
+    padding: 1.5625rem;
+    height: 4.6875rem;
+}
+.SubHeader ul li a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin-right: .625rem;
+}
+.icono{
+    font-size: 22px;
+    color: #010C80;
+    padding: 10px;
+}
+.ImagenMainIndex{
+    width: 100%;
+    height: 40rem;
+}
+.cardForm{
+    height: 24.875rem; 
+}
+.cardsMain{
+    display: grid;
+    margin: .625rem;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    grid-gap: 35px;
+    grid-template-areas: 
+    "cardSucursal cardEstado"
+    "cardChequee cardCotizacion"
+    ;
+    place-items: center;
+    font-family: "font-all";
+}
+.cardSucursal{
+    border: .125rem solid #010C80;
+    width: 11rem;
+    height: 9rem;
+    border-radius: .4375rem;
+    text-align: center;
+    margin-left: 300px;
+    margin-top: 30px;
+}
+.cardSucursal img{
+    width: 1.875rem;
+    height: 1.875rem;
+}
+.cardSucursal p{
+    color: black;
+}
+.cardEstado{
+    border: .125rem solid #010C80;
+    width: 11rem;
+    height: 9rem;
+    border-radius: .4375rem;
+    text-align: center;
+    margin-right: 300px;
+    margin-top: 30px;
+}
+.cardEstado img{
+    padding-top: .125rem;
+    width: 1.875rem;
+    height: 1.875rem;
+}
+.cardChequee{
+    border: .125rem solid #010C80;
+    width: 11rem;
+    height: 9rem;
+    border-radius: .4375rem;
+    text-align: center;
+    margin-left: 300px;
+    margin-bottom: 1.875rem;
+}
+.cardChequee img{
+    padding-top: .125rem;
+    width: 1.875rem;
+    height: 1.875rem;
+}
+.cardCotizacion{
+    border: .125rem solid #010C80;
+    width: 11rem;
+    height: 9rem;
+    border-radius: .4375rem;
+    text-align: center;
+    margin-right: 18.75rem;
+    margin-bottom: 1.875rem;
+}
+.cardCotizacion img{
+    padding-top: .125rem;
+    width: 1.875rem;
+    height: 1.875rem;
+}
+.formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    width: auto;
+    padding: 2.0rem;
+    gap: .625rem;
+    background-image: linear-gradient(to top, #010C80, #ffffff);
+}
+.imagen-correo img{
+width:50px;
+}
+.escriba-correo input{
+    width: 15.625rem;
+    border: #010C80 1.5px solid;
+}
+.escriba-asunto input{
+    width: 15.625rem;
+    border: #010C80 1.5px solid;
+}
+.formulario-mensaje{
+    border: #010C80 1.5px solid;
+    height: 7.5rem;
+    width: 15.625rem;
+}
+
+footer{
+    background-color: #010C80;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: .4688rem;
+
+}
+
+.redesfooter ul{
+    width: 1.875rem;
+    height: 1.875rem;
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    margin: .625rem;
+}
+.redesfooter ul li a{
+    margin-left: .9375rem;
+}
+.grid-footer{
+    display: grid;
+    grid-template-columns: 10px 50px;
+    grid-gap: 30px;
+    grid-template-areas: 
+    "contactoIcono contacto"
+    ;
+}
+.contactoIcono{
+    width: 1.875rem;
+    height: 1.875rem;
+    margin-left: .625rem;
+}
+
+.contacto{
+    color: #000000;
+    font-size: .9375rem;
+    background-color: #D9D9D9;
+    height: 1.8rem;
+    width: 6rem;
+    border: .300rem solid #010C80;
+    border-radius: .4375rem;
+    margin-left: .625rem;
+}
+.contacto h5{
+    padding-left: 0.5rem;
+}
+/*Quienes Somos*/ 
+.contenedorcirculo{
+    display: flex;
+    flex-direction: row;
+    gap: 1.875rem;
+    justify-content: space-around;
+}
+.caja1{
+    height: 25rem;
+    width: 25rem;
+    margin: 50px;
+}
+.caja1 h2{
+    text-decoration:underline #010C80;
+}
+.caja2{
+    height: 25rem;
+    width: 25rem;
+    margin: 50px;
+}
+.caja2 h2{
+    text-decoration:underline #010C80;
+}
+.caja3{
+    height: 25rem;
+    width: 25rem;
+    margin: 50px;
+}
+.caja3 h2{
+    text-decoration:underline #010C80;
+}
+.imgmainquienessomos{
+width: 100%;
+height: 40rem;
+margin-bottom: .625rem;
+}
+.cardQuienesSomos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 21.875rem;
+}
+.cardQuienesSomos p{
+    border: .125rem solid #010C80;
+    width: 30rem;
+    height: auto;
+    border-radius: .4375rem;
+    text-align: center;
+    padding: 10px;
+    margin: .625rem;
+    font-size: 1.25rem;
+}
+
+.MainTextoMedio{
+    text-align: center;
+    font-size: 1.875rem;
+}
+.TecnlogiaMain{
+    width: 100%;
+    height: 30rem;
+    margin-bottom: .625rem;
+}
+.TextoMain{
+    margin-top: 2.5rem;
+}
+.TextNuestra{
+    margin-left: 21.875rem;
+    font-size: 1.25rem;
+}
+.TextTecnologias{
+    margin-left: 25.3125rem;
+    font-size: 1.5625rem;
+}
+.CardTecnologiaUnica p{
+    border: .125rem solid #010C80;
+    width: 41rem;
+    height: auto;
+    border-radius: .4375rem;
+    text-align: center;
+    padding: .625rem;
+    margin: .625rem;
+    margin-left: 31.25rem;
+    font-size: 1.3rem;
+    font-size: 25px;
+}
+.cards-TecnologiasVarias ul li{
+    border: .125rem solid #010C80;
+    width: 35rem;
+    height: 15.625rem;
+    border-radius: .4375rem;
+    text-align: center;
+    padding: .625rem;
+    margin: .625rem;
+    font-size: 1.3rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.FotoMainDestinos{
+    width: 100%;
+    height: 30rem;    
+}
+.SubTituloNuestos{
+    margin-left: 20rem;
+    margin-top: 1rem;
+}
+.SubTituloDestinos{
+    margin-left: 22rem;
+}
+.banderaargentinamain{
+    width: 18rem;
+    height: 28.75rem;
+}
+.ContainersMain{
+    height: 28.125rem;
+    width: 100%;
+}
+.IconoSucursales{
+    width: 1.875rem;
+    height: 1.875rem;
+}
+.CentrarIcono{
+    text-align: center;
+    margin-top: 1.875rem;
+}
+.cardCordoba{
+    border: .125rem solid #010C80;
+    width: 30rem;
+    height: 13.75rem;
+    border-radius: .4375rem;
+    text-align: center;
+    padding: .625rem;
+    margin: .625rem;
+    margin-left: 31.25rem;
+    font-size: 1.3rem;
+}
+.cardJujuy{
+    border: .125rem solid #010C80;
+    width: 30rem;
+    height: 13.75rem;
+    border-radius: .4375rem;
+    text-align: center;
+    padding: .625rem;
+    margin: .625rem;
+    margin-left: 31.25rem;
+    font-size: 1.3rem;
+}
+.CardBuenosAires{
+    border: .125rem solid #010C80;
+    width: 30rem;
+    height: 13.75rem;
+    border-radius: .4375rem;
+    text-align: center;
+    padding: .625rem;
+    margin: .625rem;
+    margin-left: 31.25rem;
+    font-size: 1.3rem;
+}
+.SantaFe{
+    border: .125rem solid #010C80;
+    width: 30rem;
+    height: 13.75rem;
+    border-radius: .4375rem;
+    text-align: center;
+    padding: .625rem;
+    margin: .625rem;
+    margin-left: 31.25rem;
+    font-size: 1.3rem;
+}
+.FuenteMain{
+    font-family: "font-all";
+    padding: .9375rem;
+    margin: .9375rem;
+}
+.SubHeader{
+    display: flex;
+    justify-content: space-between;
+}
+.busqueda{
+    margin-left: auto;
+    display: inline-flex;
+    align-items: center;
+    padding: 1.25rem;
+}
+.busqueda img{
+    margin-right: 0.5rem;
+}
+@media (max-width:1024px){
+.SubHeader{
+    display: flex;
+    justify-content: space-evenly;
+}
+@media (max-width:768px){
+    .navbar{
+        height: auto;
+        display: flex;
+    }
+    .cardForm{
+        height: 46.875rem;
+        justify-content: center;
+    }
+    .cardsMain{
+        display: flex;
+        flex-direction: column;
+        align-items: center;  
+    }
+    .cardsMain div{
+        margin: 0;
+    }
+    /*/ Quienes somos /*/
+    .imgmainquienessomos{
+        margin: 0rem;
+    }
+    .contenedorcirculo{
+        margin-bottom: 7.5rem;
+    }
+    
+}
+@media (max-width:480px){
+    .navbar{
+        display: flex;
+        flex-direction: column;
+    }
+    .ImagenMainIndex{
+        height: 20rem;
+    }
+    .contenedorcirculo{
+        display: flex;
+        flex-direction: column;
+        gap: .9375rem;
+        height: 62.5rem
+    }
+    .caja1{
+        padding: .625rem;
+        width: 300px;
+    }
+    .caja2{
+        padding: .625rem;
+        width: 300px;
+    }
+    .caja3{
+        padding: .625rem;
+        width: 300px;
+    }
+    .imgmainquienessomos{
+        height: 25rem;
+    }
+    .SubHeader {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .SubHeader ul li {
+        font-size: 1.125rem;
+        text-decoration: none;
+        display: flex;
+        justify-content: flex-start;
+        padding: 1.5625rem;
+        height: 4.6875rem;
+    }
+}
+@media (max-width:320px){
+    .ImagenMainIndex{
+        height: 18.75rem;
+    }
+    .navbar ul li a{
+        font-size: 1rem;
+    }
+    .navbar{
+        display: flex;
+        flex-direction: column;
+    }
+    .navbar{
+        width: 100%;
+    }
+    .contenedorcirculo{
+        width: 100%;
+        gap: 0rem;
+    }
+    .caja1{
+        width: 250px;
+    }
+    .caja2{
+        width: 250px;
+    }
+    .caja3{
+        width: 250px;
+    }
+    .cardQuienesSomos p {
+        border: 0.125rem solid #010C80;
+        width: 30rem;
+        height: 20.5rem;
+        border-radius: 0.4375rem;
+        text-align: center;
+        padding: 10px;
+        margin: 0.625rem;
+        font-size: 1.1rem;
+    }
+    .MainTextoMedio {
+        text-align: center;
+        font-size: 1.25rem;
+        margin-bottom: 0.625rem;
+    }
+    .imgmainquienessomos{
+        height: 18rem;
+    }
+    .LineaBlanca{
+        border-top: 0.2rem solid rgb(255, 255, 255);
+    }
+    .SubHeader ul li{
+        display: flex;
+        flex-direction: column;
+        padding: 15px;
+        margin: 0px;
+        font-size: .875rem;
+        height: 45px;
+    }
+    .MainTextoMedio h2{
+        font-size: 1.5625rem;
+    }
+    .cardQuienesSomos p{
+        font-size: 1rem;
+        border:#010C80 solid 0.1875rem;
+        padding: .625rem;
+        height: auto;
+    }
+}
