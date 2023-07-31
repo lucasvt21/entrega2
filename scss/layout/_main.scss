@@ -1,0 +1,381 @@
+main {
+    .ImagenMainIndex {
+        width: 100%;
+        height: 40rem;
+    }
+
+    .cardForm {
+        height: 24.875rem;
+
+        .cardsMain {
+            display: grid;
+            margin: .625rem;
+            grid-template-columns: 50% 50%;
+            grid-template-rows: 50% 50%;
+            grid-gap: 35px;
+            grid-template-areas:
+                "cardSucursal cardEstado"
+                "cardChequee cardCotizacion"
+            ;
+            place-items: center;
+            font-family: "font-all";
+
+            .cardSucursal {
+                border: .125rem solid #010C80;
+                width: 11rem;
+                height: 9rem;
+                border-radius: .4375rem;
+                text-align: center;
+                margin-left: 300px;
+                margin-top: 30px;
+
+                img {
+                    width: 1.875rem;
+                    height: 1.875rem;
+                }
+
+                p {
+                    color: black;
+                }
+
+            }
+
+            .cardEstado {
+                border: .125rem solid #010C80;
+                width: 11rem;
+                height: 9rem;
+                border-radius: .4375rem;
+                text-align: center;
+                margin-right: 300px;
+                margin-top: 30px;
+
+                img {
+                    padding-top: .125rem;
+                    width: 1.875rem;
+                    height: 1.875rem;
+                }
+            }
+
+            .cardChequee {
+                border: .125rem solid #010C80;
+                width: 11rem;
+                height: 9rem;
+                border-radius: .4375rem;
+                text-align: center;
+                margin-left: 300px;
+                margin-bottom: 1.875rem;
+
+                img {
+                    padding-top: .125rem;
+                    width: 1.875rem;
+                    height: 1.875rem;
+                }
+            }
+
+            .cardCotizacion {
+                border: .125rem solid #010C80;
+                width: 11rem;
+                height: 9rem;
+                border-radius: .4375rem;
+                text-align: center;
+                margin-right: 18.75rem;
+                margin-bottom: 1.875rem;
+
+                img {
+                    padding-top: .125rem;
+                    width: 1.875rem;
+                    height: 1.875rem;
+                }
+            }
+        }
+    }
+
+    .formulario {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        background-color: rgb(255, 255, 255);
+        width: auto;
+        padding: 2.0rem;
+        gap: .625rem;
+        background-image: linear-gradient(to top, #010C80, #ffffff);
+
+        .imagen-correo {
+            img {
+                width: 3.125rem;
+            }
+        }
+
+        .escriba-correo {
+            input {
+                width: 15.625rem;
+                height: 1.875rem;
+                border: #010C80 1.5px solid;
+                text-align: center;
+                border-radius: .25rem;
+            }
+
+        }
+
+        .escriba-asunto {
+            input {
+                width: 15.625rem;
+                border: #010C80 1.5px solid;
+                text-align: center;
+                border-radius: .25rem;
+                height: 1.50rem;
+            }
+        }
+
+        .formulario-mensaje {
+            border: #010C80 1.5px solid;
+            height: 7.5rem;
+            width: 15.625rem;
+            border-radius: .25rem;
+        }
+    }
+
+    //Quienes somos//
+    div {
+        .imgmainquienessomos {
+            width: 100%;
+            height: 40rem;
+            margin-bottom: .625rem;
+        }
+    }
+
+    .LineaAzul {
+        border-top: 2.5rem solid rgb(1, 12, 128);
+    }
+
+    .MainTextoMedio {
+        text-align: center;
+        font-size: 1.575rem;
+
+        .cardQuienesSomos {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 16.875rem;
+
+            p {
+                border: .125rem solid #010C80;
+                width: 30rem;
+                height: auto;
+                border-radius: .4375rem;
+                text-align: center;
+                padding: 10px;
+                font-size: 1.25rem;
+            }
+        }
+    }
+
+    .contenedorcirculo {
+        display: flex;
+        flex-direction: row;
+        gap: 1.875rem;
+        justify-content: space-around;
+        height: 23.75rem;
+
+        .caja1 {
+            height: 25rem;
+            width: 25rem;
+            margin: 50px;
+
+            h2 {
+                text-decoration: underline #010C80;
+            }
+        }
+
+        .caja2 {
+            height: 25rem;
+            width: 25rem;
+            margin: 50px;
+
+            h2 {
+                text-decoration: underline #010C80;
+            }
+        }
+
+        .caja3 {
+            height: 25rem;
+            width: 25rem;
+            margin: 50px;
+
+            h2 {
+                text-decoration: underline #010C80;
+            }
+        }
+    }
+
+    //Tecnologia//
+    div {
+        .TecnlogiaMain {
+            width: 100%;
+            height: 35rem;
+            margin-bottom: .625rem;
+        }
+
+        .LineaAzul {
+            border-top: 2.5rem solid rgb(1, 12, 128);
+        }
+
+        .TextoMain {
+            margin-top: 2.5rem;
+
+            .TextNuestra {
+                margin-left: 21.875rem;
+                font-size: 1.25rem;
+            }
+
+            .TextTecnologias {
+                margin-left: 25.3125rem;
+                font-size: 1.5625rem;
+            }
+        }
+
+        .CardTecnologiaUnica {
+            p {
+                border: .125rem solid #010C80;
+                width: 41rem;
+                height: auto;
+                border-radius: .4375rem;
+                text-align: center;
+                padding: .625rem;
+                margin: .625rem;
+                margin-left: 26.5%;
+                font-size: 1.3rem;
+                font-size: 25px;
+            }
+        }
+    }
+
+    .cards-TecnologiasVarias {
+        ul {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: .625rem;
+
+            li {
+                border: .125rem solid #010C80;
+                width: 35rem;
+                height: 15.625rem;
+                border-radius: .4375rem;
+                text-align: center;
+                padding: .625rem;
+                margin: .625rem;
+                font-size: 1.3rem;
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    }
+
+    //Destinos//
+    div {
+        .FotoMainDestinos {
+            width: 100%;
+            height: 35rem;
+        }
+    }
+
+    section {
+        div {
+            h3 {
+                margin-left: 20rem;
+                margin-top: 1rem;
+            }
+
+            h2 {
+                margin-left: 22rem;
+            }
+        }
+
+        div {
+            .FuenteMain {
+                font-family: "font-all";
+                padding: .9375rem;
+                margin: .9375rem;
+            }
+        }
+
+        .banderaargentinamain {
+            width: 18rem;
+            height: 28.75rem;
+            margin: .9375rem 0rem 1.25rem 2.1875rem;
+        }
+    }
+
+    //sucursales//
+    div {
+        .ContainersMain {
+            height: 28.125rem;
+            width: 100%;
+        }
+    }
+
+    .CentrarIcono {
+        text-align: center;
+        margin-top: 1.875rem;
+    }
+
+    .SectionSucursales {
+        ul {
+            li {
+                .cardJujuy {
+                    border: .125rem solid #010C80;
+                    width: 30rem;
+                    height: 13.75rem;
+                    border-radius: .4375rem;
+                    text-align: center;
+                    padding: .625rem;
+                    margin: .625rem;
+                    margin-left: 31.25rem;
+                    font-size: 1.3rem;
+                }
+
+                .CardBuenosAires {
+                    border: .125rem solid #010C80;
+                    width: 30rem;
+                    height: 13.75rem;
+                    border-radius: .4375rem;
+                    text-align: center;
+                    padding: .625rem;
+                    margin: .625rem;
+                    margin-left: 31.25rem;
+                    font-size: 1.3rem;
+                }
+
+                .SantaFe {
+                    border: .125rem solid #010C80;
+                    width: 30rem;
+                    height: 13.75rem;
+                    border-radius: .4375rem;
+                    text-align: center;
+                    padding: .625rem;
+                    margin: .625rem;
+                    margin-left: 31.25rem;
+                    font-size: 1.3rem;
+                }
+
+                .cardCordoba {
+                    border: .125rem solid #010C80;
+                    width: 30rem;
+                    height: 13.75rem;
+                    border-radius: .4375rem;
+                    text-align: center;
+                    padding: .625rem;
+                    margin: .625rem;
+                    margin-left: 31.25rem;
+                    font-size: 1.3rem;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,154 @@
+@media (max-width:425px){
+    header{
+        nav{
+            .colortopazul{
+                .LogoPrincipal{
+                    width: 6.6876rem;
+                    height: 5.6875rem;
+                }
+            }
+            .SubHeader{
+                .navbar{
+                    li{
+                        display: flex;
+                        flex-direction: column;
+                        a{
+                            font-size: 1rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    main{
+        .ImagenMainIndex{
+            height: 17.75rem;
+        }
+        .cardForm{
+            height: 46.875rem;
+            justify-content: center;
+            margin-top: 1.95rem;
+            .cardsMain{
+                display: flex;
+                flex-direction: column;
+                align-items: center;  
+                div{
+                    margin: 0;
+                }
+                .cardEstado{
+                    border: .125rem solid #010C80;
+                    width: 10rem;
+                    height: 9rem;
+                    border-radius: .4375rem;
+                    text-align: center;
+                    margin: 0;
+                }
+                .cardChequee{
+                    border: .125rem solid #010C80;
+                    width: 10rem;
+                    height: 9rem;
+                    border-radius: .4375rem;
+                    text-align: center;
+                    margin: 0;
+                }
+                .cardSucursal{
+                    border: .125rem solid #010C80;
+                    width: 10rem;
+                    height: 9rem;
+                    border-radius: .4375rem;
+                    text-align: center;
+                    margin: 0;
+                }
+                .cardCotizacion{
+                    border: .125rem solid #010C80;
+                    width: 10rem;
+                    height: 9rem;
+                    border-radius: .4375rem;
+                    text-align: center;
+                    margin: 0;
+                    
+                }
+            }
+        }
+        .formulario{
+            .imagen-correo{
+                img{
+                    height: 38px;
+                    width: 38px;
+                }
+            }
+        }
+        div {
+            .imgmainquienessomos {
+                height: 320px;
+                width: 100%;
+            }
+        }
+
+        .MainTextoMedio {
+            h2 {
+                font-size: smaller;
+                margin-bottom: .9375rem;
+            }
+
+            .cardQuienesSomos {
+                height: auto;
+
+                p {
+                    font-size: small;
+                    width: 75%;
+                }
+            }
+        }
+
+        .contenedorcirculo {
+            display: flex;
+            flex-direction: column;
+            gap: .9375rem;
+            height: 38.125rem;
+
+            .caja1 {
+                width: 250px;
+
+                h2 {
+                    font-size: small;
+                    width: 100%;
+                }
+
+                p {
+                    font-size: small;
+                    width: 100%;
+                    height: 2rem;
+                }
+            }
+
+            .caja2 {
+                width: 250px;
+                h2 {
+                    font-size: small;
+                    width: 100%;
+                }
+
+                p {
+                    font-size: small;
+                    width: 100%;
+                    height: 2rem;
+                }
+            }
+
+            .caja3 {
+                width: 250px;
+                h2 {
+                    font-size: small;
+                    width: 100%;
+                }
+
+                p {
+                    font-size: small;
+                    width: 100%;
+                    height: 2rem;
+                }
+            }
+        }
+    }
+}

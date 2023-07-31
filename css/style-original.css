@@ -171,7 +171,6 @@ footer{
     flex-direction: row;
     justify-content: space-between;
     padding: .4688rem;
-
 }
 
 .redesfooter ul{
@@ -405,6 +404,7 @@ margin-bottom: .625rem;
     display: flex;
     justify-content: space-evenly;
 }
+}
 @media (max-width:768px){
     .navbar{
         height: auto;
@@ -443,7 +443,7 @@ margin-bottom: .625rem;
         display: flex;
         flex-direction: column;
         gap: .9375rem;
-        height: 62.5rem
+        height: 62.5rem;
     }
     .caja1{
         padding: .625rem;

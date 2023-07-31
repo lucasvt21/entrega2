@@ -34,3 +34,631 @@ header nav .SubHeader {
       color: white;
       text-decoration: none;
       margin-right: .625rem; }
+
+main .ImagenMainIndex {
+  width: 100%;
+  height: 40rem; }
+
+main .cardForm {
+  height: 24.875rem; }
+  main .cardForm .cardsMain {
+    display: grid;
+    margin: .625rem;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    grid-gap: 35px;
+    grid-template-areas: "cardSucursal cardEstado" "cardChequee cardCotizacion";
+    place-items: center;
+    font-family: "font-all"; }
+    main .cardForm .cardsMain .cardSucursal {
+      border: .125rem solid #010C80;
+      width: 11rem;
+      height: 9rem;
+      border-radius: .4375rem;
+      text-align: center;
+      margin-left: 300px;
+      margin-top: 30px; }
+      main .cardForm .cardsMain .cardSucursal img {
+        width: 1.875rem;
+        height: 1.875rem; }
+      main .cardForm .cardsMain .cardSucursal p {
+        color: black; }
+    main .cardForm .cardsMain .cardEstado {
+      border: .125rem solid #010C80;
+      width: 11rem;
+      height: 9rem;
+      border-radius: .4375rem;
+      text-align: center;
+      margin-right: 300px;
+      margin-top: 30px; }
+      main .cardForm .cardsMain .cardEstado img {
+        padding-top: .125rem;
+        width: 1.875rem;
+        height: 1.875rem; }
+    main .cardForm .cardsMain .cardChequee {
+      border: .125rem solid #010C80;
+      width: 11rem;
+      height: 9rem;
+      border-radius: .4375rem;
+      text-align: center;
+      margin-left: 300px;
+      margin-bottom: 1.875rem; }
+      main .cardForm .cardsMain .cardChequee img {
+        padding-top: .125rem;
+        width: 1.875rem;
+        height: 1.875rem; }
+    main .cardForm .cardsMain .cardCotizacion {
+      border: .125rem solid #010C80;
+      width: 11rem;
+      height: 9rem;
+      border-radius: .4375rem;
+      text-align: center;
+      margin-right: 18.75rem;
+      margin-bottom: 1.875rem; }
+      main .cardForm .cardsMain .cardCotizacion img {
+        padding-top: .125rem;
+        width: 1.875rem;
+        height: 1.875rem; }
+
+main .formulario {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  width: auto;
+  padding: 2.0rem;
+  gap: .625rem;
+  background-image: linear-gradient(to top, #010C80, #ffffff); }
+  main .formulario .imagen-correo img {
+    width: 3.125rem; }
+  main .formulario .escriba-correo input {
+    width: 15.625rem;
+    height: 1.875rem;
+    border: #010C80 1.5px solid;
+    text-align: center;
+    border-radius: .25rem; }
+  main .formulario .escriba-asunto input {
+    width: 15.625rem;
+    border: #010C80 1.5px solid;
+    text-align: center;
+    border-radius: .25rem;
+    height: 1.50rem; }
+  main .formulario .formulario-mensaje {
+    border: #010C80 1.5px solid;
+    height: 7.5rem;
+    width: 15.625rem;
+    border-radius: .25rem; }
+
+main div .imgmainquienessomos {
+  width: 100%;
+  height: 40rem;
+  margin-bottom: .625rem; }
+
+main .LineaAzul {
+  border-top: 2.5rem solid #010c80; }
+
+main .MainTextoMedio {
+  text-align: center;
+  font-size: 1.575rem; }
+  main .MainTextoMedio .cardQuienesSomos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 16.875rem; }
+    main .MainTextoMedio .cardQuienesSomos p {
+      border: .125rem solid #010C80;
+      width: 30rem;
+      height: auto;
+      border-radius: .4375rem;
+      text-align: center;
+      padding: 10px;
+      font-size: 1.25rem; }
+
+main .contenedorcirculo {
+  display: flex;
+  flex-direction: row;
+  gap: 1.875rem;
+  justify-content: space-around;
+  height: 23.75rem; }
+  main .contenedorcirculo .caja1 {
+    height: 25rem;
+    width: 25rem;
+    margin: 50px; }
+    main .contenedorcirculo .caja1 h2 {
+      text-decoration: underline #010C80; }
+  main .contenedorcirculo .caja2 {
+    height: 25rem;
+    width: 25rem;
+    margin: 50px; }
+    main .contenedorcirculo .caja2 h2 {
+      text-decoration: underline #010C80; }
+  main .contenedorcirculo .caja3 {
+    height: 25rem;
+    width: 25rem;
+    margin: 50px; }
+    main .contenedorcirculo .caja3 h2 {
+      text-decoration: underline #010C80; }
+
+main div .TecnlogiaMain {
+  width: 100%;
+  height: 35rem;
+  margin-bottom: .625rem; }
+
+main div .LineaAzul {
+  border-top: 2.5rem solid #010c80; }
+
+main div .TextoMain {
+  margin-top: 2.5rem; }
+  main div .TextoMain .TextNuestra {
+    margin-left: 21.875rem;
+    font-size: 1.25rem; }
+  main div .TextoMain .TextTecnologias {
+    margin-left: 25.3125rem;
+    font-size: 1.5625rem; }
+
+main div .CardTecnologiaUnica p {
+  border: .125rem solid #010C80;
+  width: 41rem;
+  height: auto;
+  border-radius: .4375rem;
+  text-align: center;
+  padding: .625rem;
+  margin: .625rem;
+  margin-left: 26.5%;
+  font-size: 1.3rem;
+  font-size: 25px; }
+
+main .cards-TecnologiasVarias ul {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: .625rem; }
+  main .cards-TecnologiasVarias ul li {
+    border: .125rem solid #010C80;
+    width: 35rem;
+    height: 15.625rem;
+    border-radius: .4375rem;
+    text-align: center;
+    padding: .625rem;
+    margin: .625rem;
+    font-size: 1.3rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center; }
+
+main div .FotoMainDestinos {
+  width: 100%;
+  height: 35rem; }
+
+main section div h3 {
+  margin-left: 20rem;
+  margin-top: 1rem; }
+
+main section div h2 {
+  margin-left: 22rem; }
+
+main section div .FuenteMain {
+  font-family: "font-all";
+  padding: .9375rem;
+  margin: .9375rem; }
+
+main section .banderaargentinamain {
+  width: 18rem;
+  height: 28.75rem;
+  margin: .9375rem 0rem 1.25rem 2.1875rem; }
+
+main div .ContainersMain {
+  height: 28.125rem;
+  width: 100%; }
+
+main .CentrarIcono {
+  text-align: center;
+  margin-top: 1.875rem; }
+
+main .SectionSucursales ul li .cardJujuy {
+  border: .125rem solid #010C80;
+  width: 30rem;
+  height: 13.75rem;
+  border-radius: .4375rem;
+  text-align: center;
+  padding: .625rem;
+  margin: .625rem;
+  margin-left: 31.25rem;
+  font-size: 1.3rem; }
+
+main .SectionSucursales ul li .CardBuenosAires {
+  border: .125rem solid #010C80;
+  width: 30rem;
+  height: 13.75rem;
+  border-radius: .4375rem;
+  text-align: center;
+  padding: .625rem;
+  margin: .625rem;
+  margin-left: 31.25rem;
+  font-size: 1.3rem; }
+
+main .SectionSucursales ul li .SantaFe {
+  border: .125rem solid #010C80;
+  width: 30rem;
+  height: 13.75rem;
+  border-radius: .4375rem;
+  text-align: center;
+  padding: .625rem;
+  margin: .625rem;
+  margin-left: 31.25rem;
+  font-size: 1.3rem; }
+
+main .SectionSucursales ul li .cardCordoba {
+  border: .125rem solid #010C80;
+  width: 30rem;
+  height: 13.75rem;
+  border-radius: .4375rem;
+  text-align: center;
+  padding: .625rem;
+  margin: .625rem;
+  margin-left: 31.25rem;
+  font-size: 1.3rem; }
+
+footer {
+  background-color: #010C80;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: .4688rem; }
+  footer .grid-footer {
+    display: grid;
+    grid-template-columns: 10px 50px;
+    grid-gap: 30px;
+    grid-template-areas: "contactoIcono contacto"; }
+    footer .grid-footer .contactoIcono {
+      width: 1.875rem;
+      height: 1.875rem;
+      margin-left: .625rem; }
+    footer .grid-footer .contacto {
+      color: #000000;
+      font-size: .9375rem;
+      background-color: #D9D9D9;
+      height: 1.8rem;
+      width: 6rem;
+      border: .300rem solid #010C80;
+      border-radius: .4375rem;
+      margin-left: .625rem; }
+      footer .grid-footer .contacto h5 {
+        padding-left: 0.5rem; }
+  footer div .redesfooter ul {
+    width: 1.875rem;
+    height: 1.875rem;
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    margin: .625rem; }
+    footer div .redesfooter ul li a {
+      margin-left: .9375rem; }
+
+@media (max-width: 320px) {
+  header nav .colortopazul .LogoPrincipal {
+    width: 4.6875rem;
+    height: 4.6875rem; }
+  header nav .SubHeader .navbar li {
+    display: flex;
+    flex-direction: column; }
+    header nav .SubHeader .navbar li a {
+      font-size: 1rem; }
+  main .ImagenMainIndex {
+    height: 17.75rem; }
+  main .cardForm {
+    height: 46.875rem;
+    justify-content: center;
+    margin-top: 1.95rem; }
+    main .cardForm .cardsMain {
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
+      main .cardForm .cardsMain div {
+        margin: 0; }
+      main .cardForm .cardsMain .cardEstado {
+        border: .125rem solid #010C80;
+        width: 10rem;
+        height: 9rem;
+        border-radius: .4375rem;
+        text-align: center;
+        margin: 0; }
+      main .cardForm .cardsMain .cardChequee {
+        border: .125rem solid #010C80;
+        width: 10rem;
+        height: 9rem;
+        border-radius: .4375rem;
+        text-align: center;
+        margin: 0; }
+      main .cardForm .cardsMain .cardSucursal {
+        border: .125rem solid #010C80;
+        width: 10rem;
+        height: 9rem;
+        border-radius: .4375rem;
+        text-align: center;
+        margin: 0; }
+      main .cardForm .cardsMain .cardCotizacion {
+        border: .125rem solid #010C80;
+        width: 10rem;
+        height: 9rem;
+        border-radius: .4375rem;
+        text-align: center;
+        margin: 0; }
+  main .formulario .imagen-correo img {
+    height: 38px;
+    width: 38px; }
+  main div .imgmainquienessomos {
+    height: 320px;
+    width: 320px; }
+  main .MainTextoMedio h2 {
+    font-size: smaller;
+    margin-bottom: .9375rem; }
+  main .MainTextoMedio .cardQuienesSomos {
+    height: auto; }
+    main .MainTextoMedio .cardQuienesSomos p {
+      font-size: small;
+      width: 75%; }
+  main .contenedorcirculo {
+    display: flex;
+    flex-direction: column;
+    gap: .9375rem;
+    height: 38.125rem; }
+    main .contenedorcirculo .caja1 {
+      width: 250px; }
+      main .contenedorcirculo .caja1 h2 {
+        font-size: small;
+        width: 100%; }
+      main .contenedorcirculo .caja1 p {
+        font-size: small;
+        width: 100%;
+        height: 2rem; }
+    main .contenedorcirculo .caja2 {
+      width: 250px; }
+      main .contenedorcirculo .caja2 h2 {
+        font-size: small;
+        width: 100%; }
+      main .contenedorcirculo .caja2 p {
+        font-size: small;
+        width: 100%;
+        height: 2rem; }
+    main .contenedorcirculo .caja3 {
+      width: 250px; }
+      main .contenedorcirculo .caja3 h2 {
+        font-size: small;
+        width: 100%; }
+      main .contenedorcirculo .caja3 p {
+        font-size: small;
+        width: 100%;
+        height: 2rem; } }
+
+@media (max-width: 375px) {
+  header nav .colortopazul .LogoPrincipal {
+    width: 5.6875rem;
+    height: 5.6875rem; }
+  header nav .SubHeader .navbar li {
+    display: flex;
+    flex-direction: column; }
+    header nav .SubHeader .navbar li a {
+      font-size: 1rem; }
+  main .ImagenMainIndex {
+    height: 17.75rem; }
+  main .cardForm {
+    height: 46.875rem;
+    justify-content: center;
+    margin-top: 1.95rem; }
+    main .cardForm .cardsMain {
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
+      main .cardForm .cardsMain div {
+        margin: 0; }
+      main .cardForm .cardsMain .cardEstado {
+        border: .125rem solid #010C80;
+        width: 10rem;
+        height: 9rem;
+        border-radius: .4375rem;
+        text-align: center;
+        margin: 0; }
+      main .cardForm .cardsMain .cardChequee {
+        border: .125rem solid #010C80;
+        width: 10rem;
+        height: 9rem;
+        border-radius: .4375rem;
+        text-align: center;
+        margin: 0; }
+      main .cardForm .cardsMain .cardSucursal {
+        border: .125rem solid #010C80;
+        width: 10rem;
+        height: 9rem;
+        border-radius: .4375rem;
+        text-align: center;
+        margin: 0; }
+      main .cardForm .cardsMain .cardCotizacion {
+        border: .125rem solid #010C80;
+        width: 10rem;
+        height: 9rem;
+        border-radius: .4375rem;
+        text-align: center;
+        margin: 0; }
+  main .formulario .imagen-correo img {
+    height: 38px;
+    width: 38px; }
+  main div .imgmainquienessomos {
+    height: 250px;
+    width: 100%; }
+  main .MainTextoMedio h2 {
+    font-size: smaller;
+    margin-bottom: .9375rem; }
+  main .MainTextoMedio .cardQuienesSomos {
+    height: auto; }
+    main .MainTextoMedio .cardQuienesSomos p {
+      font-size: small;
+      width: 75%; }
+  main .contenedorcirculo {
+    display: flex;
+    flex-direction: column;
+    gap: .9375rem;
+    height: 38.125rem; }
+    main .contenedorcirculo .caja1 {
+      width: 250px; }
+      main .contenedorcirculo .caja1 h2 {
+        font-size: small;
+        width: 100%; }
+      main .contenedorcirculo .caja1 p {
+        font-size: small;
+        width: 100%;
+        height: 2rem; }
+    main .contenedorcirculo .caja2 {
+      width: 250px; }
+      main .contenedorcirculo .caja2 h2 {
+        font-size: small;
+        width: 100%; }
+      main .contenedorcirculo .caja2 p {
+        font-size: small;
+        width: 100%;
+        height: 2rem; }
+    main .contenedorcirculo .caja3 {
+      width: 250px; }
+      main .contenedorcirculo .caja3 h2 {
+        font-size: small;
+        width: 100%; }
+      main .contenedorcirculo .caja3 p {
+        font-size: small;
+        width: 100%;
+        height: 2rem; } }
+
+@media (max-width: 425px) {
+  header nav .colortopazul .LogoPrincipal {
+    width: 6.6876rem;
+    height: 5.6875rem; }
+  header nav .SubHeader .navbar li {
+    display: flex;
+    flex-direction: column; }
+    header nav .SubHeader .navbar li a {
+      font-size: 1rem; }
+  main .ImagenMainIndex {
+    height: 17.75rem; }
+  main .cardForm {
+    height: 46.875rem;
+    justify-content: center;
+    margin-top: 1.95rem; }
+    main .cardForm .cardsMain {
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
+      main .cardForm .cardsMain div {
+        margin: 0; }
+      main .cardForm .cardsMain .cardEstado {
+        border: .125rem solid #010C80;
+        width: 10rem;
+        height: 9rem;
+        border-radius: .4375rem;
+        text-align: center;
+        margin: 0; }
+      main .cardForm .cardsMain .cardChequee {
+        border: .125rem solid #010C80;
+        width: 10rem;
+        height: 9rem;
+        border-radius: .4375rem;
+        text-align: center;
+        margin: 0; }
+      main .cardForm .cardsMain .cardSucursal {
+        border: .125rem solid #010C80;
+        width: 10rem;
+        height: 9rem;
+        border-radius: .4375rem;
+        text-align: center;
+        margin: 0; }
+      main .cardForm .cardsMain .cardCotizacion {
+        border: .125rem solid #010C80;
+        width: 10rem;
+        height: 9rem;
+        border-radius: .4375rem;
+        text-align: center;
+        margin: 0; }
+  main .formulario .imagen-correo img {
+    height: 38px;
+    width: 38px; }
+  main div .imgmainquienessomos {
+    height: 320px;
+    width: 100%; }
+  main .MainTextoMedio h2 {
+    font-size: smaller;
+    margin-bottom: .9375rem; }
+  main .MainTextoMedio .cardQuienesSomos {
+    height: auto; }
+    main .MainTextoMedio .cardQuienesSomos p {
+      font-size: small;
+      width: 75%; }
+  main .contenedorcirculo {
+    display: flex;
+    flex-direction: column;
+    gap: .9375rem;
+    height: 38.125rem; }
+    main .contenedorcirculo .caja1 {
+      width: 250px; }
+      main .contenedorcirculo .caja1 h2 {
+        font-size: small;
+        width: 100%; }
+      main .contenedorcirculo .caja1 p {
+        font-size: small;
+        width: 100%;
+        height: 2rem; }
+    main .contenedorcirculo .caja2 {
+      width: 250px; }
+      main .contenedorcirculo .caja2 h2 {
+        font-size: small;
+        width: 100%; }
+      main .contenedorcirculo .caja2 p {
+        font-size: small;
+        width: 100%;
+        height: 2rem; }
+    main .contenedorcirculo .caja3 {
+      width: 250px; }
+      main .contenedorcirculo .caja3 h2 {
+        font-size: small;
+        width: 100%; }
+      main .contenedorcirculo .caja3 p {
+        font-size: small;
+        width: 100%;
+        height: 2rem; } }
+
+@media (min-width: 768px) {
+  main .cardForm .cardsMain {
+    margin-left: 7.50rem; }
+    main .cardForm .cardsMain .cardSucursal {
+      border: 0.125rem solid #010C80;
+      width: 11rem;
+      height: 9rem;
+      border-radius: 0.4375rem;
+      text-align: center;
+      margin-left: 0px;
+      margin-top: 0px; }
+    main .cardForm .cardsMain .cardEstado {
+      border: 0.125rem solid #010C80;
+      width: 11rem;
+      height: 9rem;
+      border-radius: 0.4375rem;
+      text-align: center;
+      margin-left: 0px;
+      margin-top: 0px; }
+    main .cardForm .cardsMain .cardChequee {
+      border: 0.125rem solid #010C80;
+      width: 11rem;
+      height: 9rem;
+      border-radius: 0.4375rem;
+      text-align: center;
+      margin-left: 0px;
+      margin-top: 0px; }
+    main .cardForm .cardsMain .cardCotizacion {
+      border: 0.125rem solid #010C80;
+      width: 11rem;
+      height: 9rem;
+      border-radius: 0.4375rem;
+      text-align: center;
+      margin-left: 0px;
+      margin-top: 0px; } }
