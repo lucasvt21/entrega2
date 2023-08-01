@@ -1,3 +1,34 @@
 @media (min-width:1440px){
+    main{
+        div{
+            .FotoMainDestinos{
+                height: 600px;
 
+            }
+        }
+        section{
+            div{
+                .SubTituloNuestos{
+                    margin-left: 1rem;
+                    margin-top: 1.5rem;
+                    font-size: 1.25rem;
+
+                }
+                .SubTituloDestinos{
+                    margin-left: 2rem;
+                    font-size: 1.75rem;
+                }
+            }
+            div{
+                .FuenteMain{
+                    font-size: 1.5rem;
+                }
+                .banderaargentinamain{
+                    width: 30rem;
+                    height: 45rem;
+                    margin-left: 35%;
+                }
+            }
+        }
+    }
 }

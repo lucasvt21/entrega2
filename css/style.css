@@ -1,3 +1,11 @@
+@font-face {
+  font-family: "font-all";
+  src: url(../assets/fonts/Catamaran-VariableFont_wght.ttf); }
+
+@font-face {
+  font-family: "letra-chica";
+  src: url(); }
+
 * {
   margin: 0;
   padding: 0;
@@ -6,8 +14,10 @@
 header nav .colortopazul {
   background-color: #010C80;
   display: flex;
+  flex-direction: unset;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+  flex-wrap: unset; }
   header nav .colortopazul .LogoPrincipal {
     background-color: #010C80;
     width: 10.375rem;
@@ -259,49 +269,101 @@ main .CentrarIcono {
   text-align: center;
   margin-top: 1.875rem; }
 
-main .SectionSucursales ul li .cardJujuy {
-  border: .125rem solid #010C80;
-  width: 30rem;
-  height: 13.75rem;
-  border-radius: .4375rem;
-  text-align: center;
-  padding: .625rem;
-  margin: .625rem;
-  margin-left: 31.25rem;
-  font-size: 1.3rem; }
+main .SectionSucursales ul {
+  display: flex;
+  flex-direction: row;
+  gap: 1.875rem;
+  justify-content: center;
+  margin-bottom: 3.125rem; }
+  main .SectionSucursales ul li .cardJujuy {
+    border: .125rem solid #010C80;
+    width: 30rem;
+    height: 13.75rem;
+    border-radius: .4375rem;
+    text-align: center;
+    padding: .625rem;
+    margin: .625rem;
+    margin-left: 31.25rem;
+    font-size: 1.3rem; }
+  main .SectionSucursales ul li .CardBuenosAires {
+    border: .125rem solid #010C80;
+    width: 30rem;
+    height: 13.75rem;
+    border-radius: .4375rem;
+    text-align: center;
+    padding: .625rem;
+    margin: .625rem;
+    margin-left: 31.25rem;
+    font-size: 1.3rem; }
+  main .SectionSucursales ul li .SantaFe {
+    border: .125rem solid #010C80;
+    width: 30rem;
+    height: 13.75rem;
+    border-radius: .4375rem;
+    text-align: center;
+    padding: .625rem;
+    margin: .625rem;
+    margin-left: 31.25rem;
+    font-size: 1.3rem; }
+  main .SectionSucursales ul li .cardCordoba {
+    border: .125rem solid #010C80;
+    width: 30rem;
+    height: 13.75rem;
+    border-radius: .4375rem;
+    text-align: center;
+    padding: .625rem;
+    margin: .625rem;
+    margin-left: 31.25rem;
+    font-size: 1.3rem; }
 
-main .SectionSucursales ul li .CardBuenosAires {
-  border: .125rem solid #010C80;
-  width: 30rem;
-  height: 13.75rem;
-  border-radius: .4375rem;
-  text-align: center;
-  padding: .625rem;
-  margin: .625rem;
-  margin-left: 31.25rem;
-  font-size: 1.3rem; }
-
-main .SectionSucursales ul li .SantaFe {
-  border: .125rem solid #010C80;
-  width: 30rem;
-  height: 13.75rem;
-  border-radius: .4375rem;
-  text-align: center;
-  padding: .625rem;
-  margin: .625rem;
-  margin-left: 31.25rem;
-  font-size: 1.3rem; }
-
-main .SectionSucursales ul li .cardCordoba {
-  border: .125rem solid #010C80;
-  width: 30rem;
-  height: 13.75rem;
-  border-radius: .4375rem;
-  text-align: center;
-  padding: .625rem;
-  margin: .625rem;
-  margin-left: 31.25rem;
-  font-size: 1.3rem; }
+main .SectionSucursales ul li {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  main .SectionSucursales ul li .cardJujuy {
+    width: 280px;
+    height: 13.75rem;
+    border-radius: 0.4375rem;
+    text-align: center;
+    padding: 0.625rem;
+    margin: 0.625rem;
+    margin-left: 0rem;
+    font-size: 1rem; }
+    main .SectionSucursales ul li .cardJujuy h3 {
+      margin-left: 0rem; }
+  main .SectionSucursales ul li .cardCordoba {
+    width: 280px;
+    height: 13.75rem;
+    border-radius: 0.4375rem;
+    text-align: center;
+    padding: 0.625rem;
+    margin: 0.625rem;
+    margin-left: 0rem;
+    font-size: 1rem; }
+    main .SectionSucursales ul li .cardCordoba h3 {
+      margin-left: 0rem; }
+  main .SectionSucursales ul li .CardBuenosAires {
+    width: 280px;
+    height: 13.75rem;
+    border-radius: 0.4375rem;
+    text-align: center;
+    padding: 0.625rem;
+    margin: 0.625rem;
+    margin-left: 0rem;
+    font-size: 1rem; }
+    main .SectionSucursales ul li .CardBuenosAires h3 {
+      margin-left: 0rem; }
+  main .SectionSucursales ul li .SantaFe {
+    width: 280px;
+    height: 13.75rem;
+    border-radius: 0.4375rem;
+    text-align: center;
+    padding: 0.625rem;
+    margin: 0.625rem;
+    margin-left: 0rem;
+    font-size: 1rem; }
+    main .SectionSucursales ul li .SantaFe h3 {
+      margin-left: 0rem; }
 
 footer {
   background-color: #010C80;
@@ -324,7 +386,7 @@ footer {
       background-color: #D9D9D9;
       height: 1.8rem;
       width: 6rem;
-      border: .300rem solid #010C80;
+      border: 0.3rem solid #010C80;
       border-radius: .4375rem;
       margin-left: .625rem; }
       footer .grid-footer .contacto h5 {
@@ -433,7 +495,27 @@ footer {
       main .contenedorcirculo .caja3 p {
         font-size: small;
         width: 100%;
-        height: 2rem; } }
+        height: 2rem; }
+  main div .FotoMainDestinos {
+    height: 320px; }
+  main section div .SubTituloNuestos {
+    margin-left: 1rem;
+    margin-top: 1.5rem; }
+  main section div .SubTituloDestinos {
+    margin-left: 2rem; }
+  main section div .FuenteMain {
+    font-size: 1rem; }
+  main section div .banderaargentinamain {
+    width: 10rem;
+    height: 15rem; }
+  div .ContainersMain {
+    height: 28.125rem;
+    width: 100%; }
+  .CentrarIcono {
+    text-align: center;
+    margin-top: 1.875rem; }
+  .SectionSucursales {
+    background-color: red; } }
 
 @media (max-width: 375px) {
   header nav .colortopazul .LogoPrincipal {
@@ -529,7 +611,20 @@ footer {
       main .contenedorcirculo .caja3 p {
         font-size: small;
         width: 100%;
-        height: 2rem; } }
+        height: 2rem; }
+  main div .FotoMainDestinos {
+    height: 320px; }
+  main section div .SubTituloNuestos {
+    margin-left: 1rem;
+    margin-top: 1.5rem; }
+  main section div .SubTituloDestinos {
+    margin-left: 2rem; }
+  main section div .FuenteMain {
+    font-size: 1rem; }
+  main section div .banderaargentinamain {
+    width: 10rem;
+    height: 15rem;
+    margin-left: 6.25rem; } }
 
 @media (max-width: 425px) {
   header nav .colortopazul .LogoPrincipal {
@@ -625,7 +720,20 @@ footer {
       main .contenedorcirculo .caja3 p {
         font-size: small;
         width: 100%;
-        height: 2rem; } }
+        height: 2rem; }
+  main div .FotoMainDestinos {
+    height: 320px; }
+  main section div .SubTituloNuestos {
+    margin-left: 1rem;
+    margin-top: 1.5rem; }
+  main section div .SubTituloDestinos {
+    margin-left: 2rem; }
+  main section div .FuenteMain {
+    font-size: 1rem; }
+  main section div .banderaargentinamain {
+    width: 10rem;
+    height: 15rem;
+    margin-left: 6.25rem; } }
 
 @media (min-width: 768px) {
   main .cardForm .cardsMain {
@@ -661,4 +769,59 @@ footer {
       border-radius: 0.4375rem;
       text-align: center;
       margin-left: 0px;
-      margin-top: 0px; } }
+      margin-top: 0px; }
+  main div .FotoMainDestinos {
+    height: 320px; }
+  main section div .SubTituloNuestos {
+    margin-left: 1rem;
+    margin-top: 1.5rem; }
+  main section div .SubTituloDestinos {
+    margin-left: 2rem; }
+  main section div .FuenteMain {
+    font-size: 1rem; }
+  main section div .banderaargentinamain {
+    width: 10rem;
+    height: 15rem;
+    margin-left: 38%; } }
+
+@media (min-width: 1440px) {
+  main div .FotoMainDestinos {
+    height: 600px; }
+  main section div .SubTituloNuestos {
+    margin-left: 1rem;
+    margin-top: 1.5rem;
+    font-size: 1.25rem; }
+  main section div .SubTituloDestinos {
+    margin-left: 2rem;
+    font-size: 1.75rem; }
+  main section div .FuenteMain {
+    font-size: 1.5rem; }
+  main section div .banderaargentinamain {
+    width: 30rem;
+    height: 45rem;
+    margin-left: 35%; } }
+
+@media (min-width: 2560px) {
+  header nav .colortopazul .LogoPrincipal {
+    width: 4.6875rem;
+    height: 4.6875rem; }
+  header nav .SubHeader .navbar ul li {
+    font-size: 1000.5rem;
+    display: flex;
+    flex-direction: row;
+    font-size: 2.5rem; }
+  main div .FotoMainDestinos {
+    height: 900px; }
+  main section div .SubTituloNuestos {
+    margin-left: 20rem;
+    margin-top: 1.5rem;
+    font-size: 3rem; }
+  main section div .SubTituloDestinos {
+    margin-left: 25rem;
+    font-size: 3.5rem; }
+  main section div .FuenteMain {
+    font-size: 2.9rem; }
+  main section div .banderaargentinamain {
+    width: 30rem;
+    height: 45rem;
+    margin-left: 35%; } }

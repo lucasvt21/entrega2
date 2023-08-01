@@ -1,3 +1,58 @@
 @media (min-width:2560px){
+    header {
+        nav {
+            .colortopazul {
+                .LogoPrincipal {
+                    width: 4.6875rem;
+                    height: 4.6875rem;
+                }
+            }
 
+            .SubHeader {
+                .navbar {
+                    ul{
+                        li {
+                            font-size: 1000.5rem;
+                            display: flex;
+                            flex-direction: row;
+                            font-size: 2.5rem;
+                        }
+                    }
+
+                }
+            }
+        }
+    }
+    main{
+        div{
+            .FotoMainDestinos{
+                height: 900px;
+
+            }
+        }
+        section{
+            div{
+                .SubTituloNuestos{
+                    margin-left: 20rem;
+                    margin-top: 1.5rem;
+                    font-size: 3rem;
+
+                }
+                .SubTituloDestinos{
+                    margin-left: 25rem;
+                    font-size: 3.5rem;
+                }
+            }
+            div{
+                .FuenteMain{
+                    font-size: 2.9rem;
+                }
+                .banderaargentinamain{
+                    width: 30rem;
+                    height: 45rem;
+                    margin-left: 35%;
+                }
+            }
+        }
+    }
 }

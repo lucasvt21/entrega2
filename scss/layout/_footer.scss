@@ -1,5 +1,5 @@
 footer {
-    background-color: #010C80;
+    background-color: $color-primario;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -25,7 +25,7 @@ footer {
             background-color: #D9D9D9;
             height: 1.8rem;
             width: 6rem;
-            border: .300rem solid #010C80;
+            border: .300rem solid $color-primario;
             border-radius: .4375rem;
             margin-left: .625rem;
 

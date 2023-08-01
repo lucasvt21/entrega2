@@ -327,7 +327,12 @@ main {
 
     .SectionSucursales {
         ul {
-            li {
+            display: flex;
+            flex-direction: row;
+            gap: 1.875rem;
+            justify-content: center;
+            margin-bottom: 3.125rem;
+            li {    
                 .cardJujuy {
                     border: .125rem solid #010C80;
                     width: 30rem;
@@ -374,6 +379,77 @@ main {
                     margin: .625rem;
                     margin-left: 31.25rem;
                     font-size: 1.3rem;
+                }
+            }
+        }
+    }
+
+    //destinos//
+    .SectionSucursales {
+        ul {
+            li {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                .cardJujuy {
+                    width: 280px;
+                    height: 13.75rem;
+                    border-radius: 0.4375rem;
+                    text-align: center;
+                    padding: 0.625rem;
+                    margin: 0.625rem;
+                    margin-left: 0rem;
+                    font-size: 1rem;
+
+                    h3 {
+                        margin-left: 0rem;
+                    }
+                }
+
+                .cardCordoba {
+                    width: 280px;
+                    height: 13.75rem;
+                    border-radius: 0.4375rem;
+                    text-align: center;
+                    padding: 0.625rem;
+                    margin: 0.625rem;
+                    margin-left: 0rem;
+                    font-size: 1rem;
+
+                    h3 {
+                        margin-left: 0rem;
+                    }
+                }
+
+                .CardBuenosAires {
+                    width: 280px;
+                    height: 13.75rem;
+                    border-radius: 0.4375rem;
+                    text-align: center;
+                    padding: 0.625rem;
+                    margin: 0.625rem;
+                    margin-left: 0rem;
+                    font-size: 1rem;
+
+                    h3 {
+                        margin-left: 0rem;
+                    }
+                }
+
+                .SantaFe {
+                    width: 280px;
+                    height: 13.75rem;
+                    border-radius: 0.4375rem;
+                    text-align: center;
+                    padding: 0.625rem;
+                    margin: 0.625rem;
+                    margin-left: 0rem;
+                    font-size: 1rem;
+
+                    h3 {
+                        margin-left: 0rem;
+                    }
                 }
             }
         }

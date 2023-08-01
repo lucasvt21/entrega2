@@ -163,5 +163,46 @@
                 }
             }
         }
+        //Destinos//
+        div{
+            .FotoMainDestinos{
+                height: 320px;
+            }
+        }
+        section{
+            div{
+                .SubTituloNuestos{
+                    margin-left: 1rem;
+                    margin-top: 1.5rem;
+                }
+                .SubTituloDestinos{
+                    margin-left: 2rem;
+                }
+                }
+            div{
+                .FuenteMain{
+                    font-size: 1rem;
+                }
+                .banderaargentinamain{
+                    width: 10rem;
+                    height: 15rem;
+                }
+                }
+            }
+    }
+    div {
+        .ContainersMain {
+            height: 28.125rem;
+            width: 100%;
+        }
+    }
+
+    .CentrarIcono {
+        text-align: center;
+        margin-top: 1.875rem;
+    }
+    //Sucursales//
+    .SectionSucursales{
+        background-color: red;
     }
 }

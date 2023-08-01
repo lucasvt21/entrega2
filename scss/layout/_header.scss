@@ -1,13 +1,11 @@
 header {
     nav {
             .colortopazul {
-                background-color: #010C80;
-                display: flex;
-                justify-content: center;
-                align-items: center;
+                background-color: $color-primario;
+                @include flex (unset,center,center,unset);
 
                 .LogoPrincipal {
-                    background-color: #010C80;
+                    background-color: $color-primario;
                     width: 10.375rem;
                     display: flex;
                     justify-content: center;
