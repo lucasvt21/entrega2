@@ -1,8 +1,82 @@
 @media (min-width:768px) {
     main {
+
+        //tecnologia//
+        div {
+            .TextoMain {
+                .TextNuestra {
+                    margin-left: 1.9375rem;
+                }
+
+                .TextTecnologias {
+                    margin-left: 2.25rem;
+                }
+            }
+
+            .CardTecnologiaUnica {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                p {
+                    font-size: 1.0625rem;
+                    width: auto;
+                    margin-right: .0625rem;
+                }
+            }
+        }
+
+        .cards-TecnologiasVarias {
+            ul {
+                margin-bottom: 2.875rem;
+                grid-template-columns: 50% 50%;
+                grid-template-rows: 50% 50%;
+                margin-right: 10.875rem;
+
+                li {
+                    width: 17.1875rem;
+                    height: 21.875rem;
+
+                }
+            }
+        }
+
+
+        div {
+            .TecnlogiaMain {
+                height: 20rem;
+            }
+        }
+
+        div {
+            .TextoMain {
+                .TextNuestra {
+                    margin-left: 4.9375rem;
+                }
+
+                .TextTecnologias {
+                    margin-left: 5.25rem;
+                }
+            }
+
+            .CardTecnologiaUnica {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-right: 4.9375rem;
+
+                p {
+                    font-size: 1.5625rem;
+                    width: auto;
+                    width: 23.75rem;
+                }
+            }
+        }
+
         .cardForm {
             .cardsMain {
                 margin-left: 7.50rem;
+
                 .cardSucursal {
                     border: 0.125rem solid #010C80;
                     width: 11rem;
@@ -12,6 +86,7 @@
                     margin-left: 0px;
                     margin-top: 0px;
                 }
+
                 .cardEstado {
                     border: 0.125rem solid #010C80;
                     width: 11rem;
@@ -21,6 +96,7 @@
                     margin-left: 0px;
                     margin-top: 0px;
                 }
+
                 .cardChequee {
                     border: 0.125rem solid #010C80;
                     width: 11rem;
@@ -30,6 +106,7 @@
                     margin-left: 0px;
                     margin-top: 0px;
                 }
+
                 .cardCotizacion {
                     border: 0.125rem solid #010C80;
                     width: 11rem;
@@ -41,30 +118,72 @@
                 }
             }
         }
-        div{
-            .FotoMainDestinos{
+
+        div {
+            .FotoMainDestinos {
                 height: 320px;
             }
         }
-        section{
-            div{
-                .SubTituloNuestos{
+
+        section {
+            div {
+                .SubTituloNuestos {
                     margin-left: 1rem;
                     margin-top: 1.5rem;
                 }
-                .SubTituloDestinos{
+
+                .SubTituloDestinos {
                     margin-left: 2rem;
                 }
             }
-            div{
-                .FuenteMain{
+
+            div {
+                .FuenteMain {
                     font-size: 1rem;
                 }
-                .banderaargentinamain{
+
+                .banderaargentinamain {
                     width: 10rem;
                     height: 15rem;
                     margin-left: 38%;
                 }
+            }
+        }
+    }
+
+    //sucursales//
+    div {
+        .ContainersMain {
+            height: 20.125rem;
+            width: 100%;
+        }
+    }
+
+    .CentrarIcono {
+        text-align: center;
+        margin-top: 1.875rem;
+    }
+
+    .SectionSucursales {
+        ul {
+            display: grid !important;
+            grid-template-columns: 50% 50%;
+            grid-template-rows: 50% 50%;
+            grid-gap: 35px;
+            grid-template-areas: "cardJujuy cardCordoba"
+                "CardBuenosAires SantaFe";
+            place-items: center;
+            font-family: "font-all";
+
+            li {
+                display: grid;
+                grid-template-columns: 50% 50%;
+                grid-template-rows: 50% 50%;
+                grid-gap: 35px;
+                grid-template-areas: "cardJujuy cardCordoba"
+                    "CardBuenosAires SantaFe";
+                place-items: center;
+                font-family: "font-all";
             }
         }
     }

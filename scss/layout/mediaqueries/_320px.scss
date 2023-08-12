@@ -24,6 +24,77 @@
     }
 
     main {
+        div {
+            .TecnlogiaMain {
+                height: 20rem;
+            }
+        }
+
+        div {
+            .TextoMain {
+                .TextNuestra {
+                    margin-left: .9375rem;
+                }
+
+                .TextTecnologias {
+                    margin-left: 1.25rem;
+                }
+            }
+
+            .CardTecnologiaUnica {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                p {
+                    font-size: 1.0625rem;
+                    width: auto;
+                    margin-right: .0625rem;
+                }
+            }
+        }
+
+        .cards-TecnologiasVarias {
+            ul {
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                margin-bottom: 0.625rem;
+                align-items: center;
+
+                li {
+                    width: 14.1875rem;
+                    height: 18.875rem;
+                    margin: 0;
+                    margin-bottom: .625rem;
+                }
+            }
+        }
+
+        div {
+            .TextoMain {
+                .TextNuestra {
+                    margin-left: .9375rem;
+                }
+
+                .TextTecnologias {
+                    margin-left: 1.25rem;
+                }
+            }
+
+            .CardTecnologiaUnica {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                p {
+                    font-size: 1.0625rem;
+                    width: auto;
+                    margin-right: .0625rem;
+                }
+            }
+        }
+
         .ImagenMainIndex {
             height: 17.75rem;
         }
@@ -137,6 +208,7 @@
 
             .caja2 {
                 width: 250px;
+
                 h2 {
                     font-size: small;
                     width: 100%;
@@ -151,6 +223,7 @@
 
             .caja3 {
                 width: 250px;
+
                 h2 {
                     font-size: small;
                     width: 100%;
@@ -163,46 +236,57 @@
                 }
             }
         }
+
         //Destinos//
-        div{
-            .FotoMainDestinos{
+        div {
+            .FotoMainDestinos {
                 height: 320px;
             }
         }
-        section{
-            div{
-                .SubTituloNuestos{
+
+        section {
+            div {
+                .SubTituloNuestos {
                     margin-left: 1rem;
                     margin-top: 1.5rem;
                 }
-                .SubTituloDestinos{
+
+                .SubTituloDestinos {
                     margin-left: 2rem;
                 }
-                }
-            div{
-                .FuenteMain{
+            }
+
+            div {
+                .FuenteMain {
                     font-size: 1rem;
                 }
-                .banderaargentinamain{
+
+                .banderaargentinamain {
                     width: 10rem;
                     height: 15rem;
                 }
-                }
             }
-    }
-    div {
-        .ContainersMain {
-            height: 28.125rem;
-            width: 100%;
         }
-    }
 
-    .CentrarIcono {
-        text-align: center;
-        margin-top: 1.875rem;
-    }
-    //Sucursales//
-    .SectionSucursales{
-        background-color: red;
+        //Sucursales//
+        div {
+            .ContainersMain {
+                height: 20.125rem;
+                width: 100%;
+            }
+        }
+
+        .CentrarIcono {
+            text-align: center;
+            margin-top: 1.875rem;
+        }
+
+        .SectionSucursales {
+            ul {
+                display: block !important;
+
+                li {}
+            }
+        }
     }
 }

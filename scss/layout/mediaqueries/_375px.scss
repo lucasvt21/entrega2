@@ -21,6 +21,76 @@
         }
     }
     main{
+        div {
+            .TecnlogiaMain {
+                height: 20rem;
+            }
+        }
+
+        div {
+            .TextoMain {
+                .TextNuestra {
+                    margin-left: .9375rem;
+                }
+
+                .TextTecnologias {
+                    margin-left: 1.25rem;
+                }
+            }
+
+            .CardTecnologiaUnica {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                p {
+                    font-size: 1.0625rem;
+                    width: auto;
+                    margin-right: .0625rem;
+                }
+            }
+        }
+
+        .cards-TecnologiasVarias {
+            ul {
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                margin-bottom: 0.625rem;
+                align-items: center;
+
+                li {
+                    width: 14.1875rem;
+                    height: 18.875rem;
+                    margin: 0;
+                    margin-bottom: .625rem;
+                }
+            }
+        }
+
+        div {
+            .TextoMain {
+                .TextNuestra {
+                    margin-left: .9375rem;
+                }
+
+                .TextTecnologias {
+                    margin-left: 1.25rem;
+                }
+            }
+
+            .CardTecnologiaUnica {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                p {
+                    font-size: 1.0625rem;
+                    width: auto;
+                    margin-right: .0625rem;
+                }
+            }
+        }
         .ImagenMainIndex{
             height: 17.75rem;
         }
@@ -175,6 +245,25 @@
                     height: 15rem;
                     margin-left: 6.25rem;
                 }
+            }
+        }
+    }
+    //sucursales//
+    div {
+        .ContainersMain {
+            height: 20.125rem;
+            width: 100%;
+        }
+    }
+
+    .CentrarIcono {
+        text-align: center;
+        margin-top: 1.875rem;
+    }
+    .SectionSucursales{
+        ul{
+            display: block !important;
+            li{
             }
         }
     }
